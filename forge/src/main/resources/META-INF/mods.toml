@@ -1,35 +1,28 @@
 modLoader = "javafml"
 loaderVersion = "[48,)"
-issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/someElseIsHere/yeat-the-sheep/issues"
+license = "GPL-3.0"
 
 [[mods]]
-modId = "examplemod"
+modId = "yeatthesheep"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Yeat the Sheep !"
+authors = "thePlaceholder"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Get wool by yeating sheeps!
 '''
-#logoFile = ""
+logoFile = "logo.png"
 
-[[dependencies.examplemod]]
+[[dependencies.yeatthesheep]]
 modId = "forge"
 mandatory = true
-versionRange = "[45,)"
+versionRange = "[48,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.yeatthesheep]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.4,)"
+versionRange = "[1.20.2,)"
 ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.examplemod]]
-modId = "architectury"
-mandatory = true
-versionRange = "[8.1.79,)"
-ordering = "AFTER"
 side = "BOTH"

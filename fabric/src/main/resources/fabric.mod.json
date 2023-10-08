@@ -1,27 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "yeatthesheep",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Yeat the Sheep !",
+  "description": "Get wool by yeating sheeps!",
   "authors": [
-    "Me!"
+    "thePlaceholder"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/yeat-the-sheep",
+    "sources": "https://github.com/someElseIsHere/yeat-the-sheep"
   },
   "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/yeatthesheep/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.examplemod.fabric.ExampleModFabric"
-    ]
-  },
+  "mixins": [
+    "yeatthesheep.mixins.json"
+  ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.4",
-    "architectury": ">=8.1.79"
+    "minecraft": ">=1.20.2"
   }
 }

@@ -2,9 +2,7 @@ architectury {
     common(rootProject.enabled_platforms.split(","))
 }
 
-loom {
-    accessWidenerPath = file("src/main/resources/examplemod.accesswidener")
-}
+loom {}
 
 dependencies {
     // We depend on fabric loader here to use the fabric @Environment annotations and get the mixin dependencies
