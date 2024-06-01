@@ -11,13 +11,13 @@
     "homepage": "https://modrinth.com/mod/yeat-the-sheep",
     "sources": "https://github.com/someElseIsHere/yeat-the-sheep"
   },
-  "license": "Insert License Here",
+  "license": "GPL-3.0",
   "icon": "assets/yeatthesheep/icon.png",
   "environment": "*",
   "mixins": [
     "yeatthesheep.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.20.4"
+    "minecraft": ">=1.20.6"
   }
 }

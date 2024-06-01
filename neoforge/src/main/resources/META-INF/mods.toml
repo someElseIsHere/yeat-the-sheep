@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[49,)"
+loaderVersion = "[2,)"
 issueTrackerURL = "https://github.com/someElseIsHere/yeat-the-sheep/issues"
 license = "GPL-3.0"
 
@@ -16,13 +16,16 @@ logoFile = "logo.png"
 [[dependencies.yeatthesheep]]
 modId = "forge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.yeatthesheep]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20.6,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "yeatthesheep.mixins.json"
