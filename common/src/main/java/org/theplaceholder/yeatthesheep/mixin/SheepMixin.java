@@ -30,7 +30,7 @@ public abstract class SheepMixin extends Animal implements Shearable {
 
     @Override
     public boolean hurt(DamageSource damageSource, float f) {
-        if (!this.level().isClientSide && this.readyForShearing()){
+        if (!this.level().isClientSide && this.readyForShearing()) {
             this.yeatthesheep$yeet();
         }
         return super.hurt(damageSource, f);

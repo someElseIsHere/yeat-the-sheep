@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[2,)"
+loaderVersion = "[4,)"
 issueTrackerURL = "https://github.com/someElseIsHere/yeat-the-sheep/issues"
 license = "GPL-3.0"
 
@@ -14,16 +14,16 @@ Get wool by yeating sheeps!
 logoFile = "logo.png"
 
 [[dependencies.yeatthesheep]]
-modId = "forge"
-mandatory = true
-versionRange = "[2,)"
+modId = "neoforge"
+type="required"
+versionRange = "[21.0.0-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.yeatthesheep]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.6,)"
+type="required"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "BOTH"
 
